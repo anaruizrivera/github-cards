@@ -21,11 +21,12 @@ class Form extends React.Component {
   render(){
     return(
       <form onSubmit={this.handleSubmit}>
-        <input type="text" 
-        placeholder="Github username" 
+        <input className="con_form" type="text" 
+        placeholder="     
+        USERNAME HERE PLEASE" 
         ref={this.userNameInput} 
         required/>
-        <button>Add card</button>
+        <button>New Card</button>
       </form>
     );
   }

@@ -41,19 +41,30 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
+  background-color:skyblue;
 }
 form {
-  border: thin solid #ddd;
-  padding: 2rem;
+  border: thin solid rgb(12, 11, 11);
+  padding: 6rem;
   margin-bottom: 2rem;
+  /* height: 200px;
+  padding: 100px ; */
+}
+.con_form{
+  font-size: 1.4rem;
+  height: 50px;
+  width: 400px;
+  border-radius: 20px;
 }
 .header {
-  text-align: center;
-  font-size: 1.5rem;
+  padding: 50px;
+  
+  font-size: 4.1rem;
   margin-bottom: 1rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 .github-profile {
-  margin: 1rem;
+  margin: 2rem;
 }
 .github-profile img {
   width: 75px;
@@ -63,6 +74,16 @@ form {
   margin-left: 12px;
 }
 .github-profile info {
-  font-size: 1.25 rem;
+  font-size: 5 rem;
   font-weight: bold;
+}
+button:hover {
+  background-color: grey; /* Green */
+  color: white;
+}
+button{
+  font-family: 'Courier New', Courier, monospace;
+ font-size: 1.2rem;
+  height: 50px;
+  border-radius: 7px;
 }
